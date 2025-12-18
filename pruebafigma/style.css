@@ -1,0 +1,100 @@
+*{
+        margin: 0px;
+    padding: 0px;
+}
+.negro{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content:  end;
+
+    .link{
+        font-weight: bold;  
+        margin-left: 10px;
+        text-decoration: underline;
+    }
+
+}
+.negro .cerrar{
+    margin-left: 30% ;
+    margin-right:5% ;
+}
+
+.barra{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+    .titulo{
+        font-family: 'lilita one';
+        padding-left: 12vh;
+    }
+    .menu ul{
+        
+        display: flex;
+        font-family: 'Ubuntu';
+        list-style: none;
+        gap: 24px;
+        
+    }
+    .search{
+        input{
+
+            border-radius: 25px;
+            height: 48px;
+            width: 600px ;
+            margin-right: 2vh;
+            
+        }
+ 
+        
+    }
+
+}
+.imagen{
+    background-image: url("Rectangle\ 2.png");
+    height: 663px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    .info {
+        h1{
+            font-family: 'lilita one';
+        font-size: 64px;
+        text-align: start;
+        }
+        p{
+            font-family: 'Ubuntu';
+            font: size 16px;
+            padding-top: 2vh;
+        }
+        button{
+            height: 42px;
+            width: 210px;
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            margin-top: 4vh;
+
+        }
+        .rankin{
+            display: flex;
+            padding: 4vh;
+            gap: 50px;
+ 
+        }
+
+    }
+
+
+}
+.negro2{
+    display: flex;
+    height: 122px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+
+}
